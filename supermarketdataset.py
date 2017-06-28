@@ -10,7 +10,7 @@ from skimage import io, transform
 class SuperMarketDataset(Dataset):
     """Supermarket products dataset"""
     TRAIN_RATIO=0.6
-    
+    VAL_RATIO=0.2
     #The different types of datasets possible:
     TRAIN='train'
     VALIDATION='validation'
